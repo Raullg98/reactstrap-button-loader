@@ -46,4 +46,5 @@ Spinner color for loading state.
 While white color used by default works fine for most cases, for different bootstrap themes and bsStyles it might be better to use other colors instead.
 
 # License
-MIT (c) Yury Dymov
+MIT (c) Yury Dymov (Original author)
+MIT (c) Raul Lara
