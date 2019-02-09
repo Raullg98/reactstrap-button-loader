@@ -1,6 +1,6 @@
 import React     from 'react';
 import PropTypes from 'prop-types';
-import Button    from 'react-bootstrap/lib/Button';
+import { Button }    from 'reactstrap';
 import Spinner   from './Spinner';
 
 const propTypes = {
