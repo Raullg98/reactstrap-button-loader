@@ -116,11 +116,6 @@ describe('children prop is used', () => {
 
 describe('bsStyle, spinColor, style and className props are propagated', () => {
 
-  it('bsStyle: success -> .btn-success', () => {
-    const component = render(<ButtonLoader bsStyle="success" children="Press me" />);
-
-    expect(component.find('.btn-success')).to.have.length(1);
-  });
 
   it('expect Spinner to have color #333', () => {
     const component = mount(<ButtonLoader  children="Press me" loading spinColor="#333" />);

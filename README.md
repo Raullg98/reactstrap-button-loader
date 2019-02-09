@@ -1,5 +1,5 @@
 # react-bootstrap-button-loader
-Bootstrap Button with Spinner feature
+Reactstrap Button Loader
 
 [![react-bootstrap-button-loader](https://github.com/yury-dymov/react-bootstrap-button-loader/raw/master/docs/gifs/demo.gif)](https://github.com/yury-dymov/react-bootstrap-button-loader)
 
@@ -11,7 +11,7 @@ Bootstrap Button with Spinner feature
 
 # Usage Example
 ```
-import Button from 'react-bootstrap-button-loader';
+import Button from 'reactstrap-button-loader';
 
 <Button loading={this.state.loading}>Press me!</Button>
 ```
@@ -19,8 +19,6 @@ import Button from 'react-bootstrap-button-loader';
 # Configurable Props
 *Note*: All props are optional.
 
-### bsStyle: string, default: 'default'
-Bootstrap style, supported values: `default`, `primary`, `success`, `info`, `warning`, `danger`, `link`.
 
 ### disabled: boolean, default: false
 Set this prop `true` to disable button.
@@ -46,5 +44,5 @@ Spinner color for loading state.
 While white color used by default works fine for most cases, for different bootstrap themes and bsStyles it might be better to use other colors instead.
 
 # License
-MIT (c) Yury Dymov (Original author)
+MIT (c) Yury Dymov (Original author) <br/>
 MIT (c) Raul Lara

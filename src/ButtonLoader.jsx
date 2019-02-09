@@ -4,7 +4,6 @@ import { Button }    from 'reactstrap';
 import Spinner   from './Spinner';
 
 const propTypes = {
-  bsStyle:        PropTypes.string,
   children:       PropTypes.node,
   disabled:       PropTypes.bool,
   icon:           PropTypes.node,
@@ -14,7 +13,6 @@ const propTypes = {
 };
 
 function ButtonLoader({
-  bsStyle   = 'default',
   children  = null,
   disabled  = false,
   icon      = null,
@@ -33,7 +31,7 @@ function ButtonLoader({
 
   const buttonDisabled = disabled || loading;
 
-  return <Button bsStyle={bsStyle} disabled={buttonDisabled} {...rest}>{renderIcon()} {children}</Button>;
+  return <Button disabled={buttonDisabled} {...rest}>{renderIcon()} {children}</Button>;
 }
 
 ButtonLoader.propTypes = propTypes;

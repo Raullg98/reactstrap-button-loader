@@ -1,7 +1,7 @@
 {
-  "name": "react-bootstrap-button-loader",
-  "version": "1.0.12",
-  "description": "React ButtonLoader with Bootstrap flavor",
+  "name": "reactstrap-button-loader",
+  "version": "1.0.15",
+  "description": "Reactstrap Button Loader",
   "main": "dist/index.js",
   "scripts": {
     "release": "./node_modules/.bin/webpack --verbose --colors --display-error-details --config webpack.release.js -p",
@@ -10,23 +10,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yury-dymov/react-bootstrap-button-loader.git"
+    "url": "https://github.com/Raullg98/reactstrap-button-loader"
   },
   "keywords": [
     "react",
-    "react-bootstrap",
+    "reactstrap",
     "button",
-    "spinner"
+    "spinner",
+    "loading"
   ],
-  "author": "Yury Dymov",
+  "author": "Raul Lara",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yury-dymov/react-bootstrap-button-loader/issues"
+    "url": "https://github.com/Raullg98/reactstrap-button-loader/issues"
   },
-  "homepage": "https://github.com/yury-dymov/react-bootstrap-button-loader#readme",
+  "homepage": "https://github.com/Raullg98/reactstrap-button-loader",
   "dependencies": {
     "prop-types": "^15.5.10",
-    "react-loader": "^2.4.5"
+    "react-loader": "^2.4.5",
+    "reactstrap": "^7.1.0"
   },
   "peerDependencies": {
     "react": "*",
@@ -48,7 +50,7 @@
     "react-addons-test-utils": "^15.3.1",
     "react-bootstrap": "^0.30.3",
     "react-dom": "^15.3.1",
-    "webpack": "^1.13.1",
+    "webpack": "^1.15.0",
     "webpack-node-externals": "^1.2.0"
   }
 }
